@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Nunito:wght@200;600&display=swap');
+body{
+	font-family: 'Nunito', sans-serif;
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+	
+#wrapper{
+	width: 100%;
+}
+.container{
+	width:  960px;
+	margin: 0 auto;
+	
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: url("../img/3dff281bf57c7de4fc4a5072a51035fb.jpg");
+	background-size: cover;
+/*	overflow: hidden;*/
+}
+.logo{
+	width: 30%;
+	height: 100%;
+	line-height: 75px;
+	float: left;
+	font-family: 'Mate SC', serif;
+}
+.logo a{
+	font-weight: 800;
+	font-size: 40px;
+	text-decoration: none;
+	color: rgba(11,8,63,1.00);
+}
+.menu{
+	width: 70%; 
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+	margin-right: 35px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 50px;
+	line-height: 75px;
+}
+.menu ul li a{
+	text-size: 20px;
+	text-align: none;
+	color: #FFE290;
+	text: both; 
+}
+.main{
+	width: 100%;
+} 
+.banner{
+	width: 100%;
+	height: 768px;
+	padding: 60px 0;
+	background: url("../img/samsung-galaxy-s11-pink-bubble-gradients-stock-5k-8k-12k-1242x2208-1709.jpg");
+	background-size: cover;
+}
+.text-box{
+	width: 60%;
+	/*background: #E5787A;*/
+	float: left;
+/*	padding-top: 200px;*/
+	font-weight: bold;
+
+}
+.text-box p{
+	margin: 14px 0 50px ;
+	font-family: 'Nunito', sans-serif;
+}
+
+.btn{
+	background:#E8F6FB; 
+	padding: 20px 50px;
+	color: #265F55;
+	font-size: 18px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.img-banner{
+	float: right;
+	width: 30%;
+}
+
+.services{
+	padding: 60px 0 ;
+	height: 1100px;
+}
+.sv-left{
+	width: 50%;
+	float: left;
+/*	background: red;*/
+}
+.sv-left h1{
+/*	color:rgba(5,14,69,1.00);*/
+/*	font-size: 40px;*/
+}
+.sv-right{
+    width: 50%;
+	float: right;
+}
+.sv-box{
+	width: calc( 380px - 123px );
+	background: #FFFFFF;
+	padding: 48px;
+	margin-right: 59px;
+	height: 568px;
+	box-shadow: 5px 20px 50px 0px #D33FC4;
+	margin: 10px 0 0 40px;
+}
+.sv-box h3{
+	font-size: 30px;
+}
+.sv-box p{
+	margin: 14px 0 50px;
+}
+.sv-box a{
+/*	background: #0E0582;*/
+	padding:20px 50px;
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.sv-box1{
+	width: calc( 380px - 123px );
+	background: whiter;
+	padding: 48px;
+	margin-right: 59px;
+	box-shadow: 5px 20px 50px 0px #DC44B5;
+	margin: 80px 0 0 40px;
+}
+.sv-box1 h3{
+	font-size: 30px;
+}
+.sv-box1 p{
+	margin: 14px 0 50px;
+}
+.sv-box1 a{
+	background:#DDBEE0;
+/*	padding:20px 50px;*/
+/*	color: white;*/
+	font-size: 18px;
+	text-decoration: none;
+}
+.services1{
+	padding:60px 0;
+	height: 800px;
+}
+.text-box1{
+	width: 60%;
+	/*background:red;*/
+	float:right;
+}
+.text-box1 h1{
+	font-size: 60px;
+/*	color:#E2B400;*/
+	margin-left: 50px;
+}
+.text-box1 p{
+	margin: 14px 0 70px;
+	margin-left: 50px;
+}
+.btn1{
+/*	background: #2bb082;*/
+	padding:20px 50px;
+	color: white;
+	font-size: 18px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.image{
+	width: 30%;
+	float:left;
+}
+.footer{
+	width: 100%;
+/*	height: 100px;*/
+	background: url("../img/3dff281bf57c7de4fc4a5072a51035fb.jpg");
+	padding: 10px;
+	background-size: cover;
+}
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 32px;
+}
+
+.footer a {
+text-decoration: none;
+}
+.footer1 {
+width: 250px;
+padding: 40px;
+float: left;
+color: white;	
+}
+.footer-info a{
+font-size: 15px;
+color: #000111;
+font-weight: bolder;
+}
+.box{
+width: 160px;
+padding: 40px;
+float: right;
+}
+.box1{
+width: 200px;
+padding: 40px;
+float: right;
+margin-right: 70px;
+}
+.box2{
+width: 180px;
+padding: 40px;
+float: right;
+}
+.details1{
+float: left;
+}
+.details2{
+margin-left: 50px;
+float: left;
+}
+.b-footer  {
+padding-top: 320px;
+}
